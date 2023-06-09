@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 109512928}
   - component: {fileID: 109512927}
   - component: {fileID: 109512926}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BreakableTiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1698,7 +1698,7 @@ GameObject:
   - component: {fileID: 991272812}
   - component: {fileID: 991272811}
   - component: {fileID: 991272813}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4719,7 +4719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1218887383}
   - component: {fileID: 1218887382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4868,6 +4868,14 @@ MonoBehaviour:
   inputKey: 32
   bombFuseTime: 3
   bombAmount: 1
+  explosionPrefab: {fileID: 696231237696182724, guid: 77f191297d16c0d47bd5d8fa4c8476b7, type: 3}
+  explosionLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  explosionDuration: 1
+  explosionRadius: 1
+  breakableTiles: {fileID: 109512928}
+  breakableTilePrefab: {fileID: 7013877587938608123, guid: 12ae990e9a4b5e541a3371bca3334242, type: 3}
 --- !u!1 &1304086182
 GameObject:
   m_ObjectHideFlags: 0
